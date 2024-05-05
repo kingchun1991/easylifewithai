@@ -14,7 +14,6 @@ import {
   useBreakpointValue,
   useDisclosure,
   Spacer,
-  Image,
 } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -226,15 +225,19 @@ const Header = () => {
               color={useColorModeValue('gray.800', 'white')}
             >
               <Flex align="center">
-                <Box>
-                  <Image
-                    src="/api/og/logo"
-                    alt="Logo"
-                    boxSize="50px"
-                    objectFit="cover"
-                  />
+                <Box display="flex">
+                  <Text as="span" color="tomato">
+                    {'<'}
+                  </Text>
+                  EasyLife
+                  <Text as="span" color="tomato">
+                    /
+                  </Text>
+                  AI
+                  <Text as="span" color="tomato">
+                    {'>'}
+                  </Text>
                 </Box>
-                <Box display={{ base: 'none', md: 'flex' }}>NextJSBlog</Box>
               </Flex>
             </Text>
           </Link>

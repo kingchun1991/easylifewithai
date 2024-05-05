@@ -10,7 +10,7 @@ export async function GET() {
       <div
         style={{
           fontSize: 50,
-          color: 'teal',
+          color: 'tomato',
           background: 'transparent',
           width: '100%',
           height: '100%',
@@ -19,7 +19,7 @@ export async function GET() {
           alignItems: 'center',
         }}
       >
-        N.
+        EAI
       </div>
     ),
     {
