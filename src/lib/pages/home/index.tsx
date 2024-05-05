@@ -1,7 +1,6 @@
 import { Box, Divider, Flex, Heading, Link, Text } from '@chakra-ui/react';
 import NextLink from 'next/link';
 
-import SomeImage from '~/lib/components/samples/SomeImage';
 import LatestBlogPostListLayout from '~/lib/layout/LatestBlogPostListLayout';
 import type { IPosts } from '~/lib/types/custom-types';
 
@@ -11,8 +10,11 @@ const Home = ({ posts }: { posts: IPosts[] }) => {
       <Heading letterSpacing="tight" mb={4} as="h1" size="2xl">
         Latest
       </Heading>
-      <Text fontSize="s">A blog created with Next.js and Chakra UI</Text>
-      <SomeImage />
+      <Text fontSize="s">
+        Easy Life with AI offers AI news and practical use cases to transform
+        lives. Discover how AI can improve daily routines and optimize
+        operations.
+      </Text>
       <Divider />
       <Flex
         direction="column"
