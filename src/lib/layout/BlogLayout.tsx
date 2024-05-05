@@ -164,10 +164,10 @@ export default function BlogLayout({
         <Box className="giscus" />
         <script
           src="https://giscus.app/client.js"
-          data-repo="kingchun1991/nextjs-chakra-starter-blog"
-          data-repo-id="R_kgDOJ2sHHw"
+          data-repo="kingchun1991/easylifewithai"
+          data-repo-id="R_kgDOL3PY5w"
           data-category="General"
-          data-category-id="DIC_kwDOJ2sHH84CfEZU"
+          data-category-id="DIC_kwDOL3PY584CfJVn"
           data-mapping="title"
           data-strict="0"
           data-reactions-enabled="1"
