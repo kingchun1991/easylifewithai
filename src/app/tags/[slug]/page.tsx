@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `${baseUrl}/api/og/cover?heading=${encodeURIComponent(
             slug
           )}&text=${encodeURIComponent(slug)}&template=plain&center=true`,
-          alt: 'nextjs-chakra-starter-blog og-image',
+          alt: 'EasyLife with AI og-image',
         },
       ],
     },

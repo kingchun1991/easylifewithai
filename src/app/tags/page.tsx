@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     'The is the description of Blog from Static Metadata: https://nextjs.org/docs/app/building-your-application/optimizing/metadata#default-fields',
   openGraph: {
-    url: 'https://nextjs-chakra-starter-blog.vercel.app/tags',
-    title: 'Tags | nextjs-chakra-starter-blog',
+    url: 'https://https://easylifeiwithai.com/tags',
+    title: 'Tags | EasyLife with AI',
     description:
       'The is the description of Blog from Static Metadata: https://nextjs.org/docs/app/building-your-application/optimizing/metadata#default-fields',
     images: {
-      url: 'https://nextjs-chakra-starter-blog.vercel.app/api/og/cover?heading=Tags%20|%20nextjs-chakra-starter-blog&template=plain&center=true',
-      alt: 'Tags | nextjs-chakra-starter-blog og-image',
+      url: 'https://https://easylifeiwithai.com/api/og/cover?heading=Tags%20|%20easylife%20with%20AI&template=plain&center=true',
+      alt: 'Tags | EasyLife with AI og-image',
     },
   },
 };

@@ -7,10 +7,10 @@ type RootLayoutProps = {
   children: React.ReactNode;
 };
 
-const APP_NAME = 'nextjs-chakra-starter-blog';
+const APP_NAME = 'easylifewithai';
 
 export const metadata: Metadata = {
-  title: { default: APP_NAME, template: '%s | nextjs-chakra-starter-blog' },
+  title: { default: APP_NAME, template: '%s | EasyLife with AI' },
   description: 'Next.js + chakra-ui + TypeScript + mdx template',
   applicationName: APP_NAME,
   appleWebApp: {
@@ -22,12 +22,12 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    url: 'https://nextjs-chakra-starter-blog.vercel.app',
-    title: 'nextjs-chakra-starter-blog',
+    url: 'https://easylifewithai.com',
+    title: 'EasyLife with AI',
     description: 'Next.js + chakra-ui + TypeScript + MDX template',
     images: {
-      url: 'https://nextjs-chakra-starter-blog.vercel.app/api/og/cover?heading=nextjs-chakra-starter-blog&template=plain&center=true',
-      alt: 'nextjs-chakra-starter-blog og-image',
+      url: 'https://easylifewithai.com/api/og/cover?heading=easylife%20with%20AI&template=plain&center=true',
+      alt: 'EasyLife with AI og-image',
     },
   },
   twitter: {
